@@ -31,13 +31,13 @@ Above command runs kafka container with port 9092 mapped to host and connecting 
 
 ```$ docker run --restart=always --name=kafka -p 9092:9092 -td phenompeople/kafka```
 
-1. To make image run even after reboot use extra option --restart=always
-
 **Note:** If you remove the container all your data and configurations will be lost, and the next time you run the image the database will be reinitialized.
 
 To avoid this loss of data, you should mount a volume that will persist even after the container is removed. If you are using default configuration mount the volume to /tmp/kafka-logs
 
-```$ docker run --restart=always --name=kafka -p 9092:9092 -v /data:/tmp/kafka-logs-td phenompeople/kibana```
+1. To make image run even after reboot along with storage persistance use extra option --restart=always
+
+```$ docker run --restart=always --name=kafka -p 9092:9092 -v /data:/tmp/kafka-logs -td phenompeople/kibana```
 
 ## Maintainers
 
