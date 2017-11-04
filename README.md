@@ -11,7 +11,8 @@ Apache Kafka is a distributed streaming platform used for building real-time dat
 
 #### phenompeople/kafka
 
-* **`latest`				([2.11/0.11.0.1/Dockerfile](https://bitbucket.org/phenompeople/kafka/src/master/2.11/0.11.0.1/Dockerfile))**
+* **`latest`				([2.11/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/kafka/src/master/2.11/1.0.0/Dockerfile))**
+* **`1.0.0`				([2.11/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/kafka/src/master/2.11/1.0,0/Dockerfile))**
 * **`0.11.0.1`			([2.11/0.11.0.1/Dockerfile](https://bitbucket.org/phenompeople/kafka/src/master/2.11/0.11.0.1/Dockerfile))**
 * **`0.10.0.0`			([2.11/0.10.0.0/Dockerfile](https://bitbucket.org/phenompeople/kafka/src/master/2.11/0.10.0.0/Dockerfile))**
 
